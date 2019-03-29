@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "itsd-automation-forms-software-installs-client-side-solution",
+    "id": "bf71ad7a-2933-4c52-9822-a3ddbade6202",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true
+  },
+  "paths": {
+    "zippedPackage": "solution/itsd-automation-forms-software-installs.sppkg"
+  }
+}

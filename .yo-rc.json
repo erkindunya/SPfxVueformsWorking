@@ -1,0 +1,27 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "none",
+    "pnpFramework": "vuejs",
+    "pnp-libraries": [
+      "jquery@3",
+      "@pnp/pnpjs",
+      "@pnp/spfx-property-controls"
+    ],
+    "pnp-ci": [
+      "azure"
+    ],
+    "pnp-vetting": [],
+    "spfxenv": "spo"
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "spo",
+    "framework": "none",
+    "isCreatingSolution": true,
+    "version": "1.8.0",
+    "libraryName": "itsd-automation-forms-software-installs",
+    "libraryId": "bf71ad7a-2933-4c52-9822-a3ddbade6202",
+    "packageManager": "npm",
+    "isDomainIsolated": true,
+    "componentType": "webpart"
+  }
+}

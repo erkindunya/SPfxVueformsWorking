@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "automation-forms-software-installs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/automationFormsSoftwareInstalls/AutomationFormsSoftwareInstallsWebPart.js",
+          "manifest": "./src/webparts/automationFormsSoftwareInstalls/AutomationFormsSoftwareInstallsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "AutomationFormsSoftwareInstallsWebPartStrings": "lib/webparts/automationFormsSoftwareInstalls/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
